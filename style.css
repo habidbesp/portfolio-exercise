@@ -1,0 +1,305 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(#a8a8a8, #525657);
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background: center/cover url("img/city-header-background.jpg");
+  text-align: center;
+}
+
+.btn-header {
+  margin: auto;
+}
+
+.logo,
+.nav-bar {
+  width: 45%;
+  display: inline-block;
+}
+
+.logo img {
+  width: 20vw;
+}
+
+.logo-nav-container {
+  height: 10vw;
+  padding-top: 35px;
+}
+
+.list-item {
+  list-style: none;
+  display: inline;
+
+  margin-left: 45px;
+  padding: 5px;
+  font-size: 0.8rem;
+}
+
+.list-item:hover {
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.list-item a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  margin: 10px;
+}
+
+aside {
+  color: #bebdbb;
+  margin-bottom: 45px;
+}
+
+.scroll-down {
+  color: white;
+  margin-top: 200px;
+}
+
+.scroll-down img {
+  width: 20px;
+}
+
+.btn-lila {
+  background-color: #ba0085;
+  background-image: linear-gradient(to right, #4a007c, #ba0085);
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.btn-text {
+  color: white;
+  position: absolute;
+  top: 25%;
+  left: 22%;
+}
+
+#offer {
+  display: inline-flex;
+  background-color: black;
+}
+
+.offer-container {
+  width: 50%;
+  height: 50vh;
+  color: white;
+}
+
+.offer-container h2 {
+  font-size: 2.5rem;
+}
+
+.offer-container:nth-of-type(1) {
+  background: center/cover url("img/section-1.jpg");
+}
+
+.offer-container:nth-of-type(2) {
+  background: center/cover url("img/section-2.jpg");
+}
+
+.offer-text {
+  width: 100%;
+  height: 100%;
+  padding: 10%;
+}
+
+.offer-text h2,
+.offer-text p {
+  margin-bottom: 30px;
+}
+
+strong {
+  font-weight: 100;
+}
+
+#what-we-do {
+  background-color: white;
+}
+
+#what-we-do h2 {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 3rem;
+}
+
+.applications-container {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container {
+  width: 35%;
+  margin: auto;
+  display: inline-flex;
+}
+
+.container div {
+  margin-left: 15px;
+}
+
+.container h3 {
+  margin-bottom: 20px;
+}
+
+.container p {
+  line-height: 25px;
+}
+
+.btn-applications {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+#portfolio-container {
+  width: 100%;
+  height: 50vh;
+  background-color: black;
+  display: flex;
+}
+
+.box {
+  background-position: center;
+  background-size: cover;
+  width: 33.99vw;
+  height: 100%;
+}
+
+.box:nth-of-type(1) {
+  background-image: url("img/portfolio-1.jpg");
+}
+
+.box:nth-of-type(2) {
+  background-image: url("img/portfolio-2.jpg");
+}
+
+.box:nth-of-type(3) {
+  background-image: url("img/portfolio-3.jpg");
+}
+
+.arrow-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.arrow-left img,
+.arrow-rigth img {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+.arrow-rigth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.centered {
+  margin: auto;
+}
+
+.center-box {
+  position: relative;
+}
+
+.btn-buttom {
+  position: absolute;
+  top: 70%;
+  left: 35%;
+}
+
+#about-us {
+  background: center/cover url(img/section-3.jpg);
+  width: 100%;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.aboutUs-text {
+  width: 50%;
+}
+
+.aboutUs-text h2 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.aboutUs-text p {
+  line-height: 30px;
+}
+
+.aboutUs-container {
+  width: 100%;
+
+  display: flex;
+}
+
+.aboutUs-box {
+  width: 20%;
+  margin: auto;
+}
+.aboutUs-box img {
+  width: 125px;
+}
+
+.footer {
+  background-image: linear-gradient(#a8a8a8, #525657);
+  font-size: 1.9em;
+  /* height: 80vh; */
+  text-align: center;
+  padding: 40px 100px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.address {
+  font-style: normal;
+  font-size: 0.8em;
+  margin-bottom: 30px;
+}
+
+.footer a {
+  color: rgb(12, 78, 184);
+  text-decoration: none;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.map-frame {
+  height: 375px;
+  width: 60%;
+}
